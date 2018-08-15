@@ -13,42 +13,42 @@ void loop()
             value=analogRead(A0);
             Serial.print("Voltaje en el puerto 0=");
             Serial.println(value);
-            delay(1);
+            delay(500);
         }
-        if(caracter=='1')
+        if(caracter=='POT1')
         {
             value=analogRead(A1);
             Serial.print("Voltaje en el puesto 1=");
             Serial.println(value);
-            delay(1);
+            delay(500);
         }
-        if(caracter=='2')
+        if(caracter=='POT2')
         {
             value=analogRead(A2);
             Serial.print("Voltaje en el puesto 2=");
             Serial.println(value);
-            delay(1);
+            delay(500);
         }
-        if(caracter=='3')
+        if(caracter=='POT3')
         {
             value=analogRead(A3);
             Serial.print("Voltaje en el puesto 3=");
             Serial.println(value);
-            delay(1);
+            delay(500);
         }
-        if(caracter=='4')
+        if(caracter=='POT4')
         {
             value=analogRead(A4);
             Serial.print("Voltaje en el puerto 4=");
             Serial.println(value);
-            delay(1);
+            delay(500);
         }
-        if(caracter=='5')
+        if(caracter=='POT5')
         {
             value=analogRead(A5);
             Serial.print("Voltaje en el puerto 5 =");
             Serial.println(value);
-            delay(1);
+            delay(500);
         }
     }
 }
